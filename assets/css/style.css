@@ -1,9 +1,11 @@
-@font-face { /* Définition d'une nouvelle police nommée Beyond */
+@font-face 
+{ /* Définition d'une nouvelle police nommée Beyond */
 font-family: "Beyond-Infinity";
     src: url("font/Beyond-Infinity.ttf");
 }
 
-@font-face {
+@font-face 
+{
     font-family: "Quicksand";
     src: url("font/quicksand-bold-webfont.woff") format("woff"),
          url("font/quicksand-bolditalic-webfont.woff") format("woff"),
@@ -12,21 +14,26 @@ font-family: "Beyond-Infinity";
          url("font/quicksand-lightitalic-webfont.woff") format("woff"),
 }
 
-* {
+* 
+{
   padding: 0;
   margin: 0;
 }
 
 /*MISE EN FORME DU TEXTE*/
-a {
+a 
+{
   text-decoration: none;
   color: #404040;
 }
-a:visited {
+
+a:visited 
+{
   color: #404040
 }
 
-a:hover, a:focus, a:active {
+a:hover, a:focus, a:active 
+{
   text-decoration: none;
   color: #404040;
 }
@@ -62,35 +69,40 @@ h4
 
 p
 { 
-text-align: justify;
-font-family: "Quicksand", Arial, sans-serif;
-font-size: "14pt";
-color: #404040; 
+  text-align: justify;
+  font-family: "Quicksand", Arial, sans-serif;
+  font-size: "14px";
+  color: #404040; 
 }
 
-body {
+body 
+{
   font-family: "Quicksand", Arial, sans-serif;
   color: #404040;
   font-size: 14px;
 }
 
-.wrapper {
+.wrapper 
+{
   display: flex;
 }
 
-.sidebar-wrapper { 
+.sidebar-wrapper 
+{ 
   display: flex;
   flex-direction: column;
   background: #E5CBCE;
   width: 30%;
-  }
+}
 
- .main-wrapper {
+ .main-wrapper 
+{
   width: 70%;
   padding: 40px;
 }
 
-.sidebar-wrapper .contact-list {
+.sidebar-wrapper .contact-list 
+{
   font-size: 14px;
   vertical-align: middle;
   list-style-type: none;
@@ -103,7 +115,7 @@ body {
   margin: auto;
   width: 216px;
   height: 216px;
-  clip-path: ellipse(50% 50%);
+  clip-path: circle(50%);
   border: none;
   box-shadow: 2px 2px 2px black;
 }
@@ -118,7 +130,8 @@ body {
   color: #E5CBCE;
 }
 
-.contact-list li {
+.contact-list li 
+{
   margin-bottom: 15px;
   margin-left: 49px;
   margin-top: 24px;
@@ -135,7 +148,8 @@ body {
   padding-top: 10%;
 }
 
-.loisirs {
+.loisirs 
+{
   padding-top: 100%;
   padding-bottom: 10%;
 
@@ -151,14 +165,16 @@ body {
   color: #ffffff;
 }
 
-.rectangle {
-    width:100%;
-    background: #404040;
-    height:40px;
-    text-align: center;
+.rectangle 
+{
+  width:100%;
+  background: #404040;
+  height:40px;
+  text-align: center;
 }
 
-.sidebar-wrapper .container-block-title {
+.sidebar-wrapper .container-block-title 
+{
   text-transform: uppercase;
   font-size: 16px;
   font-weight: 700;
@@ -166,7 +182,8 @@ body {
   margin-bottom: 15px;
 }
 
-.about {
+.about 
+{
   text-align: justify;
   padding-top: 36px;
   margin-right: 49px;
@@ -198,7 +215,8 @@ body {
 
 /*right PART 1!*/
 
-.formation-list {
+.formation-list 
+{
   font-size: 18px;
   font-family: "quicksand-bold-webfont", Arial, sans-serif;
   vertical-align: middle;
@@ -213,16 +231,17 @@ body {
 
 .filet
 {
-border-bottom: 3px solid #E5CBCE;
-width : 100%;
+  border-bottom: 3px solid #E5CBCE;
+  width : 100%;
 }
 
-.subtitle {
+.subtitle 
+{
   text-decoration: underline;
   text-underline-position: under;
   text-decoration-color: #E5CBCE;
   text-decoration-style: 3px;
-  }
+}
 
 .job
 {
@@ -253,6 +272,7 @@ width : 100%;
 {
   width: 100%;
 }
+
 .recommend
 {
   display: flex;
@@ -278,29 +298,33 @@ width : 100%;
 
 
 @media (max-width: 768px) {
-  .wrapper {
+
+  .wrapper 
+  {
     display: flex;
     flex-wrap: wrap;
   }
-  .sidebar-wrapper { 
-  background: #E5CBCE;
-  width: 100%;
+  .sidebar-wrapper 
+  { 
+    background: #E5CBCE;
+    width: 100%;
   }
 
-  .loisirs {
-  padding-top: 10%;
-  padding-bottom: 10%;
-
+  .loisirs 
+  {
+    padding-top: 10%;
+    padding-bottom: 10%;
   }
 
- .main-wrapper {
-  width: 100%;
-  padding: 40px;
+  .main-wrapper
+  {
+    width: 100%;
+    padding: 40px;
   }
 
 }
 
-@media (max-width: 420git px) {
+@media (max-width: 420px) {
 
   .details-expert
   {
