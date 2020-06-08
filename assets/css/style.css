@@ -1,0 +1,325 @@
+@font-face { /* Définition d'une nouvelle police nommée Beyond */
+font-family: "Beyond-Infinity";
+    src: url("font/Beyond-Infinity.ttf");
+}
+
+@font-face {
+    font-family: "Quicksand";
+    src: url("font/quicksand-bold-webfont.woff") format("woff"),
+         url("font/quicksand-bolditalic-webfont.woff") format("woff"),
+         url("font/quicksand-regular-webfont.woff") format("woff"),
+         url("font/quicksand-light-webfont.woff") format("woff"),
+         url("font/quicksand-lightitalic-webfont.woff") format("woff"),
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/*MISE EN FORME DU TEXTE*/
+a {
+  text-decoration: none;
+  color: #404040;
+}
+a:visited {
+  color: #404040
+}
+
+a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: #404040;
+}
+
+
+h1
+{ 
+  font-size: 80px;
+  font-family: "Beyond-Infinity", Arial, sans-serif;
+  text-align: left;
+}
+
+h2
+{
+  font-family: "Quicksand", Arial, sans-serif;
+  font-size: 24px;
+}
+
+h3
+{
+  font-family: "Quicksand", Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+h4
+{
+  font-family: "quicksand-bold-webfont", Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 16px;
+  padding-bottom: 10px;
+}
+
+p
+{ 
+text-align: justify;
+font-family: "Quicksand", Arial, sans-serif;;
+font-size: "14pt"
+color: #404040; 
+}
+
+body {
+  font-family: "Quicksand", Arial, sans-serif;
+  color: #404040;
+  font-size: 14px;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.sidebar-wrapper { 
+  display: flex;
+  flex-direction: column;
+  background: #E5CBCE;
+  width: 30%;
+  }
+
+ .main-wrapper {
+  width: 70%;
+  padding: 40px;
+}
+
+.sidebar-wrapper .contact-list {
+  font-size: 14px;
+  vertical-align: middle;
+  list-style-type: none;
+}
+
+.photo
+{
+  display: flex;
+  justify-content: space-around; 
+  margin: auto;
+  width: 216px;
+  height: 216px;
+  clip-path: ellipse(50% 50%);
+  border: none;
+  box-shadow: 2px 2px 2px black;
+}
+
+.style-photo 
+{
+  padding-top: 10%
+}
+
+.pink
+{
+  color: #E5CBCE;
+}
+
+.contact-list li {
+  margin-bottom: 15px;
+  margin-left: 49px;
+  margin-top: 24px;
+  font-color: #404040;
+}
+
+.contact
+{
+  padding-top: 10%;
+}
+
+.a-propos
+{
+  padding-top: 10%;
+}
+
+.loisirs {
+  padding-top: 100%;
+  padding-bottom: 10%;
+
+}
+
+.title-profile
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "quicksand-bold-webfont", Arial, sans-serif;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.rectangle {
+    width:100%;
+    background: #404040;
+    height:40px;
+    text-align: center;
+}
+
+.sidebar-wrapper .container-block-title {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.about {
+  text-align: justify;
+  padding-top: 36px;
+  margin-right: 49px;
+  margin-left: 49px;
+}
+
+/*partie loisirs*/
+.center
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 30px;
+}
+
+.hobbies
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 60%;
+  width: 60px;
+  height: 60px;
+  border: 2px solid #404040;
+}
+
+/*right PART 1!*/
+
+.formation-list {
+  font-size: 18px;
+  font-family: "quicksand-bold-webfont", Arial, sans-serif;
+  vertical-align: middle;
+  list-style-type: none;
+  margin-top: 40px;
+}
+
+.job-title
+{
+  margin-bottom: 60px;
+}
+
+.filet
+{
+border-bottom: 3px solid #E5CBCE;
+width : 100%;
+}
+
+.subtitle {
+  text-decoration: underline;
+  text-underline-position: under;
+  text-decoration-color: #E5CBCE;
+  text-decoration-style: 3px;
+  }
+
+.job
+{
+  display: flex;
+}
+
+.right-side
+{
+  display: flex;
+  width: 30%;
+  padding-top: 20px;
+}
+
+.period
+{
+  margin-left: 10px;
+}
+
+.details
+{
+  width: 100%;
+  padding-top: 30px;
+}
+
+/*right PART 2!*/
+
+.details-expert
+{
+  width: 100%;
+}
+.recommend
+{
+  display: flex;
+  width: 100%;
+  padding-top: 20px;
+}
+
+.chief
+{
+  font-size: 16px;
+  font-family: "quicksand-bold-webfont", arial, sans-serif;
+  font-style: bold;
+  line-height: 40px;
+}
+
+.contact-chief
+{
+  font-size: 14px;
+  font-family: "quicksand-bold-webfont", arial, sans-serif;
+  font-style: bold;
+  line-height: 20px;
+}
+
+
+@media (max-width: 768px) {
+  .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .sidebar-wrapper { 
+  background: #E5CBCE;
+  width: 100%;
+  }
+
+  .loisirs {
+  padding-top: 10%;
+  padding-bottom: 10%;
+
+  }
+
+ .main-wrapper {
+  width: 100%;
+  padding: 40px;
+  }
+
+@media (max-width: 320px) {
+
+  .details-expert
+  {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  }
+
+  .job
+  {
+  display: flex;
+  flex-direction: column;
+  }
+
+  .right-side
+  {
+  display: flex;
+  width: 100%;
+  padding-top: 30px;
+  }
+
+}
+
+
