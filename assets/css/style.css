@@ -63,8 +63,8 @@ h4
 p
 { 
 text-align: justify;
-font-family: "Quicksand", Arial, sans-serif;;
-font-size: "14pt"
+font-family: "Quicksand", Arial, sans-serif;
+font-size: "14pt";
 color: #404040; 
 }
 
@@ -122,7 +122,7 @@ body {
   margin-bottom: 15px;
   margin-left: 49px;
   margin-top: 24px;
-  font-color: #404040;
+  color: #404040;
 }
 
 .contact
@@ -298,28 +298,27 @@ width : 100%;
   padding: 40px;
   }
 
-@media (max-width: 420px) {
+}
+
+@media (max-width: 420git px) {
 
   .details-expert
   {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
   }
 
   .job
   {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
   }
 
   .right-side
   {
-  display: flex;
-  width: 100%;
-  padding-top: 30px;
+    display: flex;
+    width: 100%;
+    padding-top: 30px;
   }
-
 }
-
-
