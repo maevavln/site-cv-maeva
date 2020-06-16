@@ -1,17 +1,37 @@
-@font-face 
-{ /* Définition d'une nouvelle police nommée Beyond */
-font-family: "Beyond-Infinity";
-    src: url("font/Beyond-Infinity.ttf");
+@font-face {
+  font-family: 'beyond_infinity_-_demoregular';
+  src: url('font/beyond-infinity-webfont.woff2') format('woff2'),
+       url('font/beyond-infinity-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
 }
 
-@font-face 
-{
-    font-family: "Quicksand";
-    src: url("font/quicksand-bold-webfont.woff") format("woff"),
-         url("font/quicksand-bolditalic-webfont.woff") format("woff"),
-         url("font/quicksand-regular-webfont.woff") format("woff"),
-         url("font/quicksand-light-webfont.woff") format("woff"),
-         url("font/quicksand-lightitalic-webfont.woff") format("woff"),
+@font-face {
+  font-family: 'quicksandregular';
+  src: url('font/quicksand-regular-webfont.woff2') format('woff2'),
+       url('font/quicksand-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'quicksandlight';
+  src: url('font/quicksand-light-webfont.woff2') format('woff2'),
+       url('font/quicksand-light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'quicksandbold';
+  src: url('font/quicksand-bold-webfont.woff2') format('woff2'),
+       url('font/quicksand-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
 }
 
 * 
@@ -42,26 +62,26 @@ a:hover, a:focus, a:active
 h1
 { 
   font-size: 80px;
-  font-family: "Beyond-Infinity", Arial, sans-serif;
+  font-family: 'beyond_infinity_-_demoregular', Arial, sans-serif;
   text-align: left;
 }
 
 h2
 {
-  font-family: "Quicksand", Arial, sans-serif;
+  font-family: 'quicksandbold', Arial, sans-serif;
   font-size: 24px;
 }
 
 h3
 {
-  font-family: "Quicksand", Arial, sans-serif;
+  font-family: 'quicksandbold', Arial, sans-serif;
   text-transform: uppercase;
   font-size: 18px;
 }
 
 h4
 {
-  font-family: "quicksand-bold-webfont", Arial, sans-serif;
+  font-family: 'quicksandbold', Arial, sans-serif;
   text-transform: uppercase;
   font-size: 16px;
   padding-bottom: 10px;
@@ -70,14 +90,14 @@ h4
 p
 { 
   text-align: justify;
-  font-family: "Quicksand", Arial, sans-serif;
-  font-size: "14px";
+  font-family: 'quicksandregular', Arial, sans-serif;
+  font-size: 14px;
   color: #404040; 
 }
 
 body 
 {
-  font-family: "Quicksand", Arial, sans-serif;
+  font-family: 'quicksandregular', Arial, sans-serif;
   color: #404040;
   font-size: 14px;
 }
@@ -160,7 +180,7 @@ body
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "quicksand-bold-webfont", Arial, sans-serif;
+  font-family: 'quicksandlight', Arial, sans-serif;
   font-size: 24px;
   color: #ffffff;
 }
@@ -218,7 +238,7 @@ body
 .formation-list 
 {
   font-size: 18px;
-  font-family: "quicksand-bold-webfont", Arial, sans-serif;
+  font-family: 'quicksandbold', Arial, sans-serif;
   vertical-align: middle;
   list-style-type: none;
   margin-top: 40px;
@@ -240,7 +260,6 @@ body
   text-decoration: underline;
   text-underline-position: under;
   text-decoration-color: #E5CBCE;
-  text-decoration-style: 3px;
 }
 
 .job
@@ -283,16 +302,14 @@ body
 .chief
 {
   font-size: 16px;
-  font-family: "quicksand-bold-webfont", arial, sans-serif;
-  font-style: bold;
+  font-family: "quicksandbold", arial, sans-serif;
   line-height: 40px;
 }
 
 .contact-chief
 {
   font-size: 14px;
-  font-family: "quicksand-bold-webfont", arial, sans-serif;
-  font-style: bold;
+  font-family: "quicksandbold", arial, sans-serif;
   line-height: 20px;
 }
 
