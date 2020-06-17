@@ -74,7 +74,7 @@ h2
 
 h3
 {
-  font-family: 'quicksandbold', Arial, sans-serif;
+  font-family: 'quicksandbold', Arial, sans-serif;i
   text-transform: uppercase;
   font-size: 18px;
 }
@@ -85,6 +85,14 @@ h4
   text-transform: uppercase;
   font-size: 16px;
   padding-bottom: 10px;
+}
+
+h5
+{
+  font-family: 'quicksandbold', Arial, sans-serif;
+  font-size: 14px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 p
